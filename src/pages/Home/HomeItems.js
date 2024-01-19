@@ -1,9 +1,8 @@
 export const HomeItems =[
     {
-        title: "About",
-        url: "/about",
+        title: "Git Hub",
         cName: "nav-links",
-        icon:"fa-solid fa-circle-info"
+        icon:"fa-solid fa-github"
     },
     {
         title: "Blog",
