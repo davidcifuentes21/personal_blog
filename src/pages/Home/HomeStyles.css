@@ -1,40 +1,69 @@
-.info-box{
-    margin-left: 360px;
-    margin-right: 360px;
+.home-container {
+  text-align: center;
+  padding-top: 80px;
+  color: #fff;
 }
 
-.presentation { 
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+.home-greeting {
+  font-size: 3rem;
+  font-weight: 700;
+  opacity: 0.9;
 }
 
-.one {
-    grid-area: 2 / 2 / 4 / 3;
-}
-.two {
-    grid-area: 2 / 3 / 3 / 4;
-}
-.three {
-    grid-area: 3 / 3 / 4 / 4;
+.home-title {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-top: -10px;
 }
 
-.presentation h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.home-title span {
+  color: #7eb4ff;
 }
 
-.presentation p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.home-profile {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
 }
 
-.avatar {
-    background-image: url(./luffy.jpeg);
+.home-avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(255,255,255,0.2);
 }
 
-.round-avatar{
-    border-radius: 30%; /* Use 50% for a circular shape */
-    width: 300px; /* Adjust the width as needed */
-    height: 300px; /* Make height the same as width for a perfect circle */
-    display: block;
+.home-links li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.home-links a {
+  text-decoration: none;
+  color: #ccc;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+  transition: 0.2s;
+}
+
+.home-links a:hover {
+  background: rgba(255,255,255,0.15);
+  color: #7eb4ff;
+}
+
+.home-description {
+  max-width: 650px;
+  margin: 40px auto;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  opacity: 0.9;
+}
+
+.Home * {
+  font-family: 'Oxygen', sans-serif !important;
 }

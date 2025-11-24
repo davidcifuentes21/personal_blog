@@ -3,7 +3,8 @@ export const MenuData =[
         title: "About",
         url: "/about",
         cName: "nav-links",
-        icon:"fa-solid fa-circle-info"
+        icon:"fa-solid fa-circle-info",
+        element:"<About/>"
     },
     {
         title: "Blog",

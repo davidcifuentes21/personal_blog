@@ -1,22 +1,23 @@
 import React from "react";
 import { MenuData } from "./MenuData";
 import "./NavBarStyles.css"
+import { Link } from 'react-router-dom';
 
 function NavBar(){
     return (
         <>
             <nav className="NavbarItems">
-                <a href="/" className="home">
+                <Link to="/" className="home">
                     <i className="fab fa-react"></i>
-                </a>
+                </Link>
                 <ul className="nav-menu">
                     {MenuData.map((item, index) => {
                         return(
                             <li key={index}>
-                                <a href={item.url} className={item.cName}>
+                                <Link to={item.url} className={item.cName}>
                                     <i className={item.icon}></i>
                                     {item.title}
-                                </a>
+                                </Link>
                             </li>)
                     })}
                     </ul>

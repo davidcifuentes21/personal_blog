@@ -1,0 +1,24 @@
+.content-box {
+    margin-left: 450px;
+    margin-right: 450px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    flex: 0 0 auto;
+    margin-bottom: 20px;
+    margin-right: auto; /* Alinea el div.title a la izquierda */
+  }
+  
+  h1, p {
+    margin: 0;
+    padding-bottom: 0;
+  }
+  
+  .about-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  

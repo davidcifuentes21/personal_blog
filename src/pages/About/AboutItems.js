@@ -1,4 +1,4 @@
-export const HomeItems =[
+export const AboutItems =[
     {
         title: "Git Hub",
         cName: "links",
